@@ -1,0 +1,13 @@
+build/*
+dist/*
+google_drive_easy.egg-info/*
+__pycache__
+*.bat
+settings.json
+settings.json
+.env*
+!.env.example
+client_secret.json
+token.json
+test_files/*
+!test_files/test.txt
