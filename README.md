@@ -3,7 +3,7 @@
 The easiest way to interact with the Google Drive API to perform the tasks you need.
 
 # Important
-If you don't know how to connect with the Google API by using Oauth2, check the `google-auth-easy` dependency and the instructions to connect. You can find the project in Pypi and the code in Github (https://github.com/Implosiv3/google-drive-easy).
+To use this library and be able to interact with the Google Drive API you need an Oauth2 ID and the Google Drive API enabled in your Google account. If you don't know about this, check the `google-auth-easy` dependency and the instructions to connect. You can find the project in Pypi and the code in Github (https://github.com/Implosiv3/google-drive-easy).
 
 # Instructions
 1. Go to the Google Developers console: https://console.cloud.google.com.
