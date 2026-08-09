@@ -2,9 +2,11 @@ from google_drive_easy._types import DriveService
 from google_drive_easy.exceptions import DeleteError
 
 
-class DeleteManager:
+class _DeleteManager:
     """
-    Handle file deletion from Google Drive.
+    *For internal use only*
+    
+    Handle deleting files in Google Drive.
     """
 
     def __init__(

@@ -1,6 +1,6 @@
 [project]
 name = "google-drive-easy"
-version = "0.0.2"
+version = "0.0.3"
 description = "Google Drive with Python, but easy"
 authors = [
     {name = "danialcala94",email = "danielalcalavalera@gmail.com"}

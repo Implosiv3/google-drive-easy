@@ -1,14 +1,16 @@
 from google_drive_easy.exceptions import UploadError
-from google_drive_easy.drive_file import DriveFile
+from google_drive_easy.dataclasses.drive_file import DriveFile
 from googleapiclient.http import MediaFileUpload
 from pathlib import Path
 from typing import Union, Callable
 
 
 
-class UploadManager:
+class _UploadManager:
     """
-    Handles file uploads to Google Drive.
+    *For internal use only*
+
+    Handle uploading files to Google Drive.
     """
 
     def __init__(

@@ -2,9 +2,11 @@ from google_drive_easy._types import DriveService
 from google_drive_easy.exceptions import ShareError
 
 
-class ShareManager:
+class _ShareManager:
     """
-    Handles Google Drive file sharing.
+    *For internal use only*
+
+    Handle sharing files on Google Drive.
     """
 
     def __init__(
